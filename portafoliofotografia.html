@@ -1,0 +1,143 @@
+<!-- Soporte para HTML5 y español -->
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<meta charset="UTF-8"/>
+        <title>Ximena Talavera</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="shortcut icon" href="./img/bolacristal.ico" type="image/x-icon"/>
+		
+		<!-- Importamos archivo de estilos -->
+		<link rel="stylesheet" href="./css/styles.css">
+	</head>
+
+
+	<body>
+		<!-- Cabecera (header) -->
+        <header>
+            <div class="contenedor">
+                <h1>Ximena Yael Hernández Talavera</h1>
+            </div>
+        </header>
+
+		<!-- Navegador (menu) -->
+       <nav>
+          
+            <div class="scrollmenu">
+  <a href="./index.html">Inicio</a>
+    <div class="dropdown">
+  <button class="dropbtn">Portafolio</button>
+  <div class="dropdown-content">
+    <a href="./portafolio.html">Diseños y aplicaciones</a>
+    <a href="./portafoliofotografia.html">Fotografía</a>
+    
+  </div>
+</div>
+
+
+
+
+  <a href="./contacto.html">Contacto</a>
+  <a href="./ubicacion.html">Ubicación</a>
+  ...
+</div>
+        </nav>
+
+        <!-- Sección central para contenido. -->
+        <section class="contenido">
+            <div class="contenedor">
+                <main>
+                  
+					<!-- Titulos -->
+					
+					<h2>Galería</h2>
+                    <hr>
+					<audio controls=""> <source src="./audio/Ariel Pink - Lipstick.mp3" type=""></audio>
+
+
+
+<div class="w3-content w3-display-container">
+
+<img style="width: 100%" class="mySlides" src="./img/cielo1.JPG">
+<img  style="width: 100%"class="mySlides" src="./img/cielo2.JPG">
+<img  style="width: 100%"class="mySlides" src="./img/cielo3.JPG">
+<img  style="width: 100%"class="mySlides" src="./img/mariposa.jpeg">
+<img  style="width: 100%"class="mySlides" src="./img/flo2.jpeg">
+<img  style="width: 100%"class="mySlides" src="./img/flo3.jpeg">
+<img  style="width: 100%"class="mySlides" src="./img/fuego.jpeg">
+<img  style="width: 100%"class="mySlides" src="./img/cami1.jpeg">
+<img  style="width: 100%"class="mySlides" src="./img/cami2.jpeg">
+
+
+
+
+
+
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+</div>
+
+<script type="text/javascript">
+  
+  var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+
+</div>
+</script>
+
+
+
+
+
+
+
+            </div>
+
+			
+
+				
+                    
+                  </main>
+
+
+
+
+
+
+
+
+
+                <aside>
+                   
+                </aside>
+            </div>
+        </section>
+
+		<!-- Pie de pagina. -->
+        <footer>
+            <div class="contenedor">
+                Universidad Autónoma Metropolitana
+            </div>
+        </footer>
+	</body>
+</html>
